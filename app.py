@@ -41,6 +41,14 @@ canvas {
     padding: 2rem;
 }
 
+.content-box {
+    background: rgba(0, 0, 0, 0.85);
+    border: 1px solid rgba(0, 255, 65, 0.3);
+    border-radius: 12px;
+    padding: 3rem 4rem;
+    box-shadow: 0 0 40px rgba(0, 255, 65, 0.1);
+}
+
 .beer {
     font-size: 6rem;
     animation: pulse 2s ease-in-out infinite;
@@ -104,6 +112,7 @@ canvas {
 <canvas id="matrix"></canvas>
 
 <div class="content">
+    <div class="content-box">
     <div class="beer">🍺</div>
     <div class="title">Ondro, díky!</div>
     <div class="message">
@@ -115,6 +124,7 @@ canvas {
     <div class="footer">
         [ SYSTEM ] Deployed from GitHub &rarr; Streamlit Community Cloud<br>
         [ STATUS ] Online &bull; Built with 🍺 and Python &bull; 2026 cube-da
+    </div>
     </div>
 </div>
 
