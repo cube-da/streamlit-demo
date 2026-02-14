@@ -1,6 +1,6 @@
 import streamlit as st
 
-st.set_page_config(page_title="Ondři, díky!", page_icon="🍺", layout="wide")
+st.set_page_config(page_title="Ondro, díky!", page_icon="🍺", layout="wide")
 
 # Matrix rain + styling
 st.markdown("""
@@ -117,7 +117,7 @@ window.addEventListener('resize', () => {
 
 # Obsah
 st.markdown('<div class="matrix-beer">🍺</div>', unsafe_allow_html=True)
-st.markdown('<div class="matrix-title">Ondři, díky!</div>', unsafe_allow_html=True)
+st.markdown('<div class="matrix-title">Ondro, díky!</div>', unsafe_allow_html=True)
 st.markdown("""
 <div class="matrix-subtitle">
 > Za nasměrování na Streamlit.<br>
